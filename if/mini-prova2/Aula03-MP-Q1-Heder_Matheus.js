@@ -12,7 +12,9 @@
  *
  */
 
+//Simulando o numero de casos da semana
 numcasos = 15
+//Simulando uma taxa de infecção de 50% 
 taxa = 0.5
 y = 1+taxa
 numcasos = Math.pow(y,numcasos)
