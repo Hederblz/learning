@@ -12,10 +12,12 @@
  *
  */
 
+//notas
 n1 = 2
 n2 = 5
 n3 = 6
 n4 = 5
+//numeros de notas
 n  = 4
 
 m = n/((1/n1)+(1/n2)+(1/n3)+(1/n4))

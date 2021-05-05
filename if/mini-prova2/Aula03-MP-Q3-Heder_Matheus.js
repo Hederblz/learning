@@ -13,15 +13,13 @@
  */
 
 //var y := 1 -> não é necessario atribuir um valor a y, não se usa o : antes do =
-//const x := 10 -> não é necessario usar o const, não se usa o : antes do =
-//let a := -2 -> não é necessario usar o let, não se usa o : antes do =
+//let a := -2 -> a não esta na formula, não se usa o : antes do =
 //let h := 3 -> não tem a h na equação, não se usa o : antes do =
-x = 10
-a = -2
+const x = 10
 
+// y = x -2x + 3 -> essa é a formula correta
 //y := x - a + 3 -> não se usa o : antes do =
-y = x - a + 3
+y = x - (2*x) + 3
 
-
-//console.log("valor","y") y -> Não precisa de aspas duplas no y
-console.log("valor :",y)
+//console.log("valor","y") y -> Não deve ser usado aspas duplas no y
+console.log("valor de y :",y)
