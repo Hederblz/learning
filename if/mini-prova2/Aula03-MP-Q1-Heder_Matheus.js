@@ -12,11 +12,15 @@
  *
  */
 
-//Simulando o numero de casos da semana
-numcasos = 15
+
+//numcasos = (1+0.5)^x
+
 //Simulando uma taxa de infecção de 50% 
 taxa = 0.5
 y = 1+taxa
-numcasos = Math.pow(y,numcasos)
+//n -> numero de semanas  x -> numero de dias
+n = 3
+x = (7*n)
+numcasos = Math.pow(y,x)
 
 console.log('o novo numero de casos é', numcasos)
