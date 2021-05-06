@@ -23,4 +23,4 @@ n = 3
 x = (7*n)
 numcasos = Math.pow(y,x)
 
-console.log('o novo numero de casos é', numcasos)
+console.log('o numero de casos é', numcasos)
