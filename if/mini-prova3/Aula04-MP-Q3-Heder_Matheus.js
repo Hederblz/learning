@@ -12,17 +12,16 @@
  *
  */
 
-var n = 3
+var n = -0
 
 if(n == 0){
     console.log("o numero é neutro")
 }else if (n >= 0){
-    console.log("o numero é positivo")
-        if (n % 2 > 0){
-            console.log("o numero é impar")
+        if (n % 2 == 0){
+            console.log("o numero é positivo e par")
             } 
         else {
-            console.log("o numero é par")
+            console.log("o numero é positivo e impar")
         }
     } 
 else if(n % 2 != 0){
