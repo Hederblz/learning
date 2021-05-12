@@ -13,7 +13,7 @@
  */
 
 var a = 6
-var b = 6
+var b = 3
 var c = 1
 
 if (a != b && b != c && c != a ){
