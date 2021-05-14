@@ -12,12 +12,14 @@
  *
  */
 
-var a = 6
+var a = 3
 var b = 3
-var c = 1
+var c = 3
 
 if (a != b && b != c && c != a ){
     console.log('os três numeros são diferentes')
 }else if(a != b && a != c || b != a && b != c || c != a && c != b){
     console.log('um numero é diferente')
-}
+}/*else if(a == b && b == c && c == a){
+    console.log('os numeros são iguas')
+}*/
