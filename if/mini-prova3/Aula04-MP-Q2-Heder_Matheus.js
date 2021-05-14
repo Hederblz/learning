@@ -20,6 +20,6 @@ if (a != b && b != c && c != a ){
     console.log('os três numeros são diferentes')
 }else if(a != b && a != c || b != a && b != c || c != a && c != b){
     console.log('um numero é diferente')
-}/*else if(a == b && b == c && c == a){
+}else if(a == b && b == c && c == a){
     console.log('os numeros são iguas')
-}*/
+}
