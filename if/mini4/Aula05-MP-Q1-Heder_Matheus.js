@@ -15,13 +15,8 @@
 var a = 1
 var b = 99
 
-if (a < 100 && a > 0){
-    console.log('O primeiro numero esta entre 0 e 100')
+if (a < 100 && a > 0 && b < 100 && b > 0){
+    console.log('os dois numeros estão entre 0 e 100')
 } else{
-    console.log('O primeiro numero não esta entre 0 e 100')
-}
-if(b < 100 && b > 0){
-    console.log('O segundo numero esta entre 0 e 100')
-} else{
-    console.log('O segundo numero não esta entre 0 e 100')
+    console.log('Os numeros dois não estão entre 0 e 100')
 }
