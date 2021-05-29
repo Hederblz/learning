@@ -18,11 +18,15 @@ var colunas = 4;
 //Não mexa aqui!!!
 var num = 1;
 
-if(linhas <= 0 || colunas <= 0){
+if(linhas <= 0 || colunas <= 0)
+{
     console.log('O numero de colunas e de linhas deve ser maior que 0');
-} else{
-    for(x=0;x<linhas;x++){
-        for(y=0;y<colunas;y++){
+} else
+{
+    for(x=0;x<linhas;x++)
+    {
+        for(y=0;y<colunas;y++)
+        {
             process.stdout.write('\t'+ num);
             num++;
         }

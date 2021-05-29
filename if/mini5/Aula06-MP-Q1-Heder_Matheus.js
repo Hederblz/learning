@@ -15,22 +15,29 @@
 var num1 = 10;
 var num2 = 10;
 
-if(num1<num2){
+if(num1<num2)
+{
     var contador1 = num1 + 1;
-        while(contador1 < num2){
-            if(contador1 % 2 == 0){
+        while(contador1 < num2)
+        {
+            if(contador1 % 2 == 0)
+            {
                 console.log(contador1);
             }
         contador1++;
         }
-    }else if(num2<num1){
+    }else if(num2<num1)
+    {
         var contador2 = num1 - 1;
-            while(contador2 > num2){
-                if(contador2 % 2 == 0){
+            while(contador2 > num2)
+            {
+                if(contador2 % 2 == 0)
+                {
                     console.log(contador2);
                 }
             contador2--;
         }
-    } else if (num1 == num2){
+    } else if (num1 == num2)
+    {
         console.log("Os numeros devem ser diferentes");
     }

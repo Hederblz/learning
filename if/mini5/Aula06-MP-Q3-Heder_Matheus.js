@@ -20,16 +20,19 @@ var b = 2;
 //Não mexa aqui!!!
 var r = 0;
 
-if(b>0){
-    for (i = 0; i < b; i++) {
+if(b>0)
+{
+    for (i = 0; i < b; i++)
+    {
         r = r + a;
     }
-} else if(b<0){
-    for(i=0;i>b;i--){
+} else if(b<0)
+{
+    for(i=0;i>b;i--)
+    {
     r = r - a;
     }
 }
-
 
 console.log('O resultado é :', r);
 
