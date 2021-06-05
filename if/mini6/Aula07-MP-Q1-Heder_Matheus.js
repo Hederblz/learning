@@ -5,7 +5,7 @@
  * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
  * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
  *
- * Nome completo: NOME DO ESTUDANTE
+ * Nome completo: Heder Matheus Moura Paes Barreto
  * Curso: TSI ou IPI
  * Aula: Aula 07 - Subprogramas - Mini-prova
  * Questão: 1
