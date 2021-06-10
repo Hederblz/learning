@@ -11,11 +11,6 @@
  *
  */
 
-
-// este exemplo requer a instalação da biblioteca prompt-sync
-// comando para instalação: npm install prompt-sync
-// mais detalhes em https://www.npmjs.com/package/prompt-sync
-
 const prompt = require('prompt-sync')();
 var opcao = - 1;
 
