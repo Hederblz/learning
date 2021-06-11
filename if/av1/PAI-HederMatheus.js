@@ -15,14 +15,10 @@ const prompt = require('prompt-sync')();
 var opcao = - 1;
 
 do
-{ // exemplo clássico da utilização do do...while
-
+{
 	imprimirMenu();
-
 	opcao = Number(prompt('Digite uma opção: '));
 
-	
-	// adicionem novos cases para novas opções
 	switch (opcao)
 	{
 		case 0:
@@ -49,7 +45,7 @@ do
 			break;
 
 		default:
-			console.log("Digite uma das opções acima");
+			console.log("\nDIGITE UMA DAS OPCOES ACIMA");
 	}
 } while (opcao != 0);
 
@@ -102,14 +98,38 @@ function fatorial()
 
 function primo()
 {
+	var contador = 0;
+
 	console.log("\n\n");
-	console.log("primo");
+	p2 = Number(prompt("Digite um numero :"));
+	for(var i = 1; i <= p2; i++)
+	{
+		if(p2 % i == 0)
+		{
+		contador = contador + 1;
+		}
+	}
+	if(contador == 2)
+	{
+		console.log("O numero eh primo");
+	}else
+	{
+		console.log("O numero nao eh primo");
+	}
 }
 
 function lsdivisor()
 {
 	console.log("\n\n");
-	console.log("lista de divisores");
+	p3 = Number(prompt("Digite um numero :"));
+
+	for(var i = 0; i <= p3; i++)
+	{
+		if(p3 % i == 0)
+		{
+			process.stdout.write(' '+ i);
+		}
+	}
 }
 
 function sobre()
