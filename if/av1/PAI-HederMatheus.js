@@ -149,4 +149,5 @@ function sobre()
 	console.log("Aluno do IFPE-Igarassu");
 	console.log("Curso Informatica para Internet");
 	console.log("Professor : Allan Lima");
+	console.log("Version : Ultimate");
 }
