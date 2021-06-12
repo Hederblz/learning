@@ -5,7 +5,7 @@
  * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
  * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
  *
- * Nome completo: Heder Matheus
+ * Nome completo: Heder Matheus Moura Paes Barreto
  * Curso: TSI ou IPI
  * Primeira Avalição Individual
  *
@@ -16,8 +16,13 @@ var opcao = - 1;
 
 do
 {
+	var cont = 30;
 	imprimirMenu();
 	opcao = Number(prompt('Digite uma opção: '));
+	for(i = 0; i < cont; i++)
+	{
+		process.stdout.write("*");
+	}
 
 	switch (opcao)
 	{
@@ -45,14 +50,19 @@ do
 			break;
 
 		default:
-			console.log("\nDIGITE UMA DAS OPCOES ACIMA");
+			console.log("\n\nDIGITE UMA DAS OPCOES ACIMA");
 	}
 } while (opcao != 0);
 
 function imprimirMenu()
 {
-	console.log('\n\n\n');
-	console.log('~~ OPERACOES NUMERICAS ~~');
+	var cont = 30;
+	console.log('\n');
+	for(i = 0; i < cont; i++)
+	{
+		process.stdout.write("*");
+	}
+	console.log('\n~~ OPERACOES NUMERICAS ~~');
 	console.log('Opções:');
 	console.log('(1) Teste de Divisibilidade');
 	console.log('(2) Fatorial');
@@ -64,7 +74,7 @@ function imprimirMenu()
 
 function testeDeDivisibilidade()
 {
-	console.log('\n\n');
+	console.log('\n');
 	dividendo = Number(prompt('Digite o numero da ser dividido: '));
 	divisor = Number(prompt('Digite o divisor: '));
 
@@ -80,8 +90,8 @@ function testeDeDivisibilidade()
 
 function fatorial()
 {
-	console.log("\n\n");
-	p1 = Number(prompt("Digite um numero : "));
+	console.log("\n");
+	p1 = Number(prompt("Digite um numero (x!): "));
 	if(p1 < 0)
     {
         console.log("Não existe fatoria de numero negativo!");
@@ -100,7 +110,7 @@ function primo()
 {
 	var contador = 0;
 
-	console.log("\n\n");
+	console.log("\n");
 	p2 = Number(prompt("Digite um numero :"));
 	for(var i = 1; i <= p2; i++)
 	{
@@ -120,7 +130,7 @@ function primo()
 
 function lsdivisor()
 {
-	console.log("\n\n");
+	console.log("\n");
 	p3 = Number(prompt("Digite um numero :"));
 
 	for(var i = 0; i <= p3; i++)
@@ -134,7 +144,9 @@ function lsdivisor()
 
 function sobre()
 {
-	console.log("\n\n");
+	console.log("\n");
 	console.log("CEO : Heder Matheus");
 	console.log("Aluno do IFPE-Igarassu");
+	console.log("Curso Informatica para Internet");
+	console.log("Professor : Allan Lima");
 }
