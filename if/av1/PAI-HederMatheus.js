@@ -95,7 +95,10 @@ function fatorial()
 	if(p1 < 0)
     {
         console.log("Não existe fatoria de numero negativo!");
-    }else
+    }else if(p1 == 0)
+	{
+		console.log(`O fatoria de ${p1} eh : 1`);
+	}else
 	{
 		var resultado = p1;
 		for(var i = 1; i < p1; i++)
@@ -149,5 +152,5 @@ function sobre()
 	console.log("Aluno do IFPE-Igarassu");
 	console.log("Curso Informatica para Internet");
 	console.log("Professor : Allan Lima");
-	console.log("Version : Ultimate");
+	console.log("Version : Plus Ultimate");
 }
