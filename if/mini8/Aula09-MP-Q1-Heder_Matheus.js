@@ -7,7 +7,7 @@
  *
  * Nome completo: Heder Matheus Moura Paes Barreto
  * Curso: TSI ou IPI
- * Aula: Aula 09 - Arrasy - Mini-prova
+ * Aula: Aula 09 - Arrays - Mini-prova
  * Questão: 1
  *
  */
