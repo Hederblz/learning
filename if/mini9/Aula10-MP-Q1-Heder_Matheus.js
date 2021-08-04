@@ -36,12 +36,12 @@ function mesmoAutor(q1, q2)
     }
 }
 
-var campo = new Quadro('Carlos Cunha', 'Pintura do Campo', 1999, 25, 100, 250);
-var carros = new Quadro('Jose Filho', 'Carros na Estrada', 2003, 100, 125, 510);
+var q1 = new Quadro('Carlos Cunha', 'Pintura do Campo', 1999, 25, 100, 250);
+var q2 = new Quadro('Jose Filho', 'Carros na Estrada', 2003, 100, 125, 510);
 
-console.log(campo);
-console.log(carros);
+console.log(q1);
+console.log(q2);
 
-var iguais = mesmoAutor(campo, carros);
+var iguais = mesmoAutor(q1, q2);
 
 console.log('Os quadros são iguas ?\n', iguais);
