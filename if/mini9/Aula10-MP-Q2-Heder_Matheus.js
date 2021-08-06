@@ -34,21 +34,23 @@ class Museo
     }
 }
 
-function valorAcervo(preco)
+function valorAcervo(Quadro)
 {
-    valor = q1.preco + q2.preco + q2.preco;
-   /* for(var i = 0; i < Quadro.length; i++)
+    for(var i = 0; i < q1.length; i++)
     {
-        valor =  valor + Quadro.preco;
-    }*/
+        valor =  valor + q1[i].preco;
+    }
 } 
 var valor = 0; 
 
-var q1 = new Quadro('Carlos Cunha', 'Pintura do Campo', 1999, 25, 100, 250);
-var q2 = new Quadro('Jose Filho', 'Carros na Estrada', 2003, 100, 125, 510);
-var q3 = new Quadro('Carlos Cunha','Igrejas do Centro', 2001, 200, 200, 400);
+var q1 =
+[ 
+    new Quadro('Carlos Cunha', 'Pintura do Campo', 1999, 25, 100, 250),
+    new Quadro('Jose Filho', 'Carros na Estrada', 2003, 100, 125, 510),
+    new Quadro('Carlos Cunha','Igrejas do Centro', 2001, 200, 200, 400)
+]
 
-var m1 = new Museo('Pinacoteca Regional', [q1, q2, q3]);
+var m1 = new Museo('Pinacoteca Regional', q1);
 
 console.log(m1);
 valorAcervo();
