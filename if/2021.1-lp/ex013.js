@@ -1,16 +1,18 @@
+var resul;
+
 determinante([[1,2,3], [4,5,6], [7,8,1]]);
 
-console.log(resu)
+console.log(resul);
 
 function determinante(a) {
     var ordem = a.length;
 
     if (ordem === 1) {
-        return a[0][0];
+        resul = a[0][0];
     }
 
     if (ordem === 2) {
-        return a[0][0] * a[1][1] - a[0][1] * a[1][0];
+        resul = a[0][0] * a[1][1] - a[0][1] * a[1][0];
     }
 
     var det = 0;
@@ -19,7 +21,7 @@ function determinante(a) {
         det += a[0][j] * cofator(a, 0, j);
     }
 
-    resu =  det;
+    resul = det;
 }
 
 function cofator(a, linha, coluna) {
@@ -38,6 +40,5 @@ function cofator(a, linha, coluna) {
         m++;
     }
 
-    //return Math.pow(-1, linha + coluna) * determinante(sub_matriz);
     return (coluna % 2 ? -1 : 1) * determinante(sub_matriz);
 }
