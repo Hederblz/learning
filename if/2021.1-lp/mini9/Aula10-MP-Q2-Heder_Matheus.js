@@ -34,14 +34,17 @@ class Museo
     }
 }
 
-function valorAcervo(Quadro)
+function valorAcervo(a1)
 {
     for(var i = 0; i < q1.length; i++)
     {
-        valor =  valor + q1[i].preco;
-    }
+        if(a1 == q1[i].autor)
+        {
+            valor =  valor + q1[i].preco;
+        }
+    }   
 } 
-var valor = 0; 
+var valor = 0;
 
 var q1 =
 [ 
@@ -53,5 +56,6 @@ var q1 =
 var m1 = new Museo('Pinacoteca Regional', q1);
 
 console.log(m1);
-valorAcervo();
-console.log('A soma dos valores eh :',valor);
+//Digite o nome do autor
+valorAcervo('Carlos Cunha');
+console.log('A soma dos quadros eh :',valor);
