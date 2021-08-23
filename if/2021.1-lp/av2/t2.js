@@ -1,5 +1,5 @@
-var matriz1 = [[1,2],[3,4]];
-var matriz2 = [[5,6],[7,8]];
+var matriz1 = [[1,1,1,1,1],[1,1,1,1,1]];
+var matriz2 = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]];
 
 console.log("Entrada");
 console.log("matriz 1: " + matriz1);
