@@ -1,2 +1,2 @@
-print('Olá, mundo!');
-print('A cobra fumou!!');
+print('Olá, mundo!')
+print('A cobra fumou!!')
