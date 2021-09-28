@@ -1,4 +1,4 @@
-# Área do círculo
+# Área do círculo 1002
 
 raio = float(input('Digite o valor do raio: '))
 

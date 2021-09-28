@@ -1,4 +1,4 @@
-# Media 1
+# Media 1 1005
 
 nota1 = float(input('Digite a nota A : '))
 nota2 = float(input('Digite a nota B : '))

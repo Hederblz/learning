@@ -1,4 +1,4 @@
-# salario
+# salario 1008
 
 numero = int(input('Digite o numero do funcionario : '))
 horas = int(input('Digite o numero de horas trabalhadas : '))
