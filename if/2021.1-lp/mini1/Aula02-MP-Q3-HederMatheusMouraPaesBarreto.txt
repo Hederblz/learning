@@ -1,0 +1,35 @@
+/*
+ *
+ * Instituto Federal de Educação, Ciência e Tecnologia - IFPE
+ * Cursos: Informática para Internet | Sistemas para Internet
+ * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
+ * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
+ *
+ * Nome completo: Heder Matheus Moura Paes Barreto
+ * Curso: Responder IPI
+ * Aula: Aula 02 - Algoritmos - Mini-prova
+ * Questão: 3
+ *
+ */
+ 
+ Ingredientes
+ 	
+ 	Smartphone
+	Película
+	Limpador de tela
+	Pano limpa tela
+	Pelicula antiga
+ 	
+ Passos
+ 
+	1. Remover a película antiga do aparelho;
+	2. Aplicar o limpador de tela;
+	3. Limpar a tela do Smartphone com o pano limpa tela;
+	4. Aplicar a nova película;
+	
+	Erros
+	
+	-O primeiro passo deve ser remover a película antiga;
+	-Não é nessesario limpar a tela do smartphone apos a aplicação da nova pelicula;
+	-O nome certo do ingrediente é 'limpador de tela';
+	-A pelicula antiga é um dos ingredientes;

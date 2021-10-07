@@ -1,0 +1,25 @@
+/*
+ *
+ * Instituto Federal de Educação, Ciência e Tecnologia - IFPE
+ * Cursos: Informática para Internet | Sistemas para Internet
+ * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
+ * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
+ *
+ * Nome completo: Heder Matheus Moura Paes Barreto
+ * Curso: Responder IPI
+ * Aula: Aula 02 - Algoritmos - Mini-prova
+ * Questão: 1
+ *
+ */
+ 
+ Ingredientes
+ 
+ 	Pano
+ 	Multiuso
+ 	Pano seco
+
+ Passos
+ 
+	1. Aplicar o multiuso no pano;
+	2. Passar o pano na mesa;
+	3. Passar o pano seco na mesa; 	

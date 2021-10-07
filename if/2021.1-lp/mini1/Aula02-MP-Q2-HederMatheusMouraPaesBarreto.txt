@@ -1,0 +1,33 @@
+/*
+ *
+ * Instituto Federal de Educação, Ciência e Tecnologia - IFPE
+ * Cursos: Informática para Internet | Sistemas para Internet
+ * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
+ * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
+ *
+ * Nome completo: Heder Matheus Moura Paes Barreto
+ * Curso: Responder IPI
+ * Aula: Aula 02 - Algoritmos - Mini-prova
+ * Questão: 2
+ *
+ */
+ 
+ Ingredientes
+ 	
+ 	Cabide 1
+ 	Cabide 2
+ 	Gaveta 1
+ 	Gaveta 2
+ 	Camisa coloridas
+ 	Camisa brancas
+ 	Calças
+ 	Bermuda
+ 	
+ Passos
+ 
+	1. Coloque as camisas brancas no cabide 1;
+	2. Agrupe as camisas brancas no canto esquerdo;
+	3. Coloque as camisas coloridas no cabide 2;
+	4. Agrupe as camisas coloridas no canto direito;
+	5. Coloque as calças na gaveta 1;
+	6. Coloque as bermudas na gaveta 2;
