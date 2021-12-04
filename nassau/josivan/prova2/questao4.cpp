@@ -6,9 +6,9 @@ na qual, cada termo subsequente corresponde à soma dos dois anteriores.*/
 #include <iostream>
 using namespace std;
 int main(){
-    int num1, num2, n, num3;
+    int num1, num2, n;
     int vetor[20];
-    n = 20;
+    n = 19;
     num1 = 0;
     num2 = 1;
     vetor[0] = num1;
