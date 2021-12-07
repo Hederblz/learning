@@ -1,0 +1,47 @@
+.voltar{
+    padding: 1rem 1rem;
+    background: red;
+    border: 2px solid red;
+    color: white;
+    margin: 25px;
+    width: 60px;
+    font-size: 25px;
+}
+
+.menu {
+    text-align: center;
+}
+.menu h1{
+    font-size: 120px;
+}
+
+.menu a{
+    font-size: xx-large;
+    padding: 1rem 2rem;
+    background: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+body{
+    background-image: url(../img/b3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.submit{
+    font-size: medium;
+    padding: 1rem 2rem;
+    background: green;
+    border: 2px solid green;
+    color: white;
+    
+}
+
+.cadastro{
+    text-align: center;
+    font-size: x-large;
+
+}
+
